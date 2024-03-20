@@ -1,0 +1,175 @@
+{
+  "intents": [
+   
+    {
+      "tag": "Greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": [" Which language movie are you looking for:\nOptions \n English \n Kannada \n Hindi"]
+    },
+    {
+      "tag": "Movie language choice",
+      "patterns": ["English", "Kannada", "Hindi"],
+      "responses": ["What kind of experience are you looking for today:\nOptions \n 2D movie \n 3D movie"]
+    },
+    {
+      "tag": "Movie Experience Choice",
+      "patterns": ["2D", "3D"],
+      "responses": ["Great choice! Please choose a movie category:\nOptions \n Action \n Comedy \n Drama \n Thriller"]
+    },
+    {
+      "tag": "Action Movie Category Choice",
+      "patterns": ["Action", "action", "action movies", "action films"],
+      "responses": ["Awesome! Choose a specific movie from the Action category:\nOptions \n Avengers Endgame \n The Dark Knight \nInception \nJohn Wick 4"]
+    },
+    {
+      "tag": "Comedy Movie Category Choice",
+      "patterns": ["Comedy", "comedy", "funny movies", "laughs"],
+      "responses": ["Awesome! Now, choose a specific movie from the Comedy category:\nOptions \nDumb and Dumber  \n Hangover  \nJohnny English \nReborn \nWe are the Millers"]
+    },
+    {
+      "tag": "Drama Movie Category Choice",
+      "patterns": ["Drama", "drama", "serious movies", "emotional films"],
+      "responses": ["Awesome! Now, choose a specific movie from the Drama category:\nOptions \nThe Shawshank Redemption \nForrest Gump \nThe Godfather \nTitanic"]
+    },
+    {
+      "tag": "the_tag",
+      "patterns": ["the"],
+      "responses": ["please select the full movie_name :\nOptions \nThe Shawshank Redemption \nThe Godfather "]
+    },
+    {
+      "tag": "Science Fiction Movie Category Choice",
+      "patterns": ["Thriller", "suspense", "thriller", "fantasy movies"],
+      "responses": ["Awesome! Now, choose a specific movie from the Science Fiction category:\nOptions \nInterstellar \n Matrix  \nJurassic Park  \nAvatar The Way of Water"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["Avengers: Endgame", "Avengers Endgame"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM  \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["Inception"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM  \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["The Shawshank Redemption"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM \n6:30 PM \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["The Dark Knight"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM  \n8:00 PM \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["Dumb and Dumber"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM  \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["Forrest Gump"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM \n8:00 PM \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["The Godfather"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM  \n8:00 PM \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["The Hangover"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM \n6:30 PM  \n8:00 PM \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["Titanic"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM \n6:30 PM \n8:00 PM \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["Interstellar"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM \n6:30 PM \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["The Matrix"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM \n6:30 PM  \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["Jurassic Park"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM \n6:30 PM  \n8:00 PM \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["Eternal Sunshine of the Spotless Mind"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM  \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["The Revenant"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM  \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Movie Selection",
+      "patterns": ["The Martian"],
+      "responses": ["Excellent choice! Please select a showtime from the available: \nOptions \n4:00 PM  \n6:30 PM  \n8:00 PM  \n10:15 PM"]
+    },
+    {
+      "tag": "Showtime Selection",
+      "patterns": ["4:00 PM", "6:30 PM", "8:00 PM", "10:15 PM"],
+      "responses": ["Great! Please choose the theatre for your showtime:\nOptions \nAero Theatre  \nVista Theatre  \nRegal Cinemas  \nUniversal Cinemas"]
+    },
+    {
+      "tag": "theatre_aero",
+      "patterns": ["Theatre"],
+      "responses": ["Please choose the Theatre name for your showtime:\nOptions \nAero \nVista"]
+    },
+    {
+      "tag": "Cinemas_regal",
+      "patterns": ["cinemas"],
+      "responses": ["Please choose the Theatre name for your showtime:\nOptions \nRegal   \nUniversal"]
+    },
+    {
+      "tag": "Theatre Selection",
+      "patterns": ["Regal Cinemas", "Aero Theatre", "Vista Theatre", "Universal Cinemas"],
+      "responses": ["Nice choice! Now, select your preferred seating position:\nOptions \nStandard  \nVIP \nBalcony"]
+    },
+    {
+      "tag": "Seating Position Selection",
+      "patterns": ["Standard", "VIP", "Balcony"],
+      "responses": ["Perfect! How many tickets would you like to purchase:\nOptions \n 1  \n 2 \n 3  \n 4  \n 5"]
+    },
+    {
+      "tag": "Number of Tickets Selection",
+      "patterns": ["1", "2", "3", "4", "5"],
+      "responses": [
+        "Great choice, please enter proceed for proceeding with your details:\nOptions \n proceed "
+      ]
+    },
+
+     {
+      "tag": "Names",
+      "patterns": ["proceed"],
+      "responses": [
+        "please provide your mobile number"
+      ]
+
+    },
+
+    {
+      "tag": "details",
+      "patterns": ["submit"],
+      "responses": [
+        "Great choice, here are the details of your ticket,Please enter confirm for booking or enter cancel for cancel the booking."
+      ]
+    },
+
+    {
+      "tag": "Ticket Booking Confirmation",
+      "patterns": ["Yes", "confirm", "book", "ok", "gohead"],
+      "responses": ["Awesome! Your tickets are booked. Enjoy the show!"]
+    }
+  ]
+}
